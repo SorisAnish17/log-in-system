@@ -4,7 +4,7 @@ let displayname = document.querySelector("#displayname");
 let email = document.querySelector("#email");
 let gender = document.querySelector("#gender");
 let plan = document.querySelector("#plan");
-let key = userSessionStorage.key(1);
+let key = userSessionStorage.key(0);
 console.log(key);
 let userData = JSON.parse(sessionStorage.getItem(key));
 console.log(userData);
