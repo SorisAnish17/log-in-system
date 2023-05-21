@@ -1,0 +1,22 @@
+let userSessionStorage = sessionStorage;
+let username = document.querySelector("#username");
+let displayname = document.querySelector("#displayname");
+let email = document.querySelector("#email");
+let gender = document.querySelector("#gender");
+let plan = document.querySelector("#plan");
+let key = userSessionStorage.key(1);
+console.log(key);
+let userData = JSON.parse(sessionStorage.getItem(key));
+console.log(userData);
+username.textContent = ` ${userData.firstName} ${userData.lastName}`;
+displayname.textContent = `Name: ${userData.firstName} ${userData.lastName}`;
+email.textContent = `Email: ${userData.email}`;
+gender.textContent = `Gender:${userData.gender}`;
+plan.textContent = `Plan: ${userData.plan}`;
+let logout = document.querySelector("#logout");
+logout.addEventListener("click", (e) => {
+  e.preventDefault();
+  sessionStorage.removeItem(key);
+  alert("successfully logout");
+  window.location.href = "./login.html";
+});
