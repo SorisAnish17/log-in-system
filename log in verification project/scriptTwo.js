@@ -7,7 +7,11 @@ loginbtn.addEventListener("click", (e) => {
   e.preventDefault();
   let alldata = Object.entries(localStorage);
   let verify = alldata.find((c) => JSON.parse(c[1]).email == userEmail.value);
+    if (verify == undefined) {
+    msg.textContent = "email not matched";
+    msg.style.color = "red";
+  }
   sessionStorage.setItem(verify[0], verify[1]);
   alert("successfully log-in");
-  window.location = "./profile.html";
+  window.location.href = "./profile.html";
 });
