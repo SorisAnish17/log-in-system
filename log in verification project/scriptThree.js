@@ -9,9 +9,7 @@ console.log(key);
 username.textContent = userData.firstName
   ? ` ${userData.firstName} ${userData.lastName}`
   : "guest id";
-displayname.textContent = userData.firstName
-  ? `Name: ${userData.firstName} ${userData.lastName}`
-  : "guest id";
+displayname.textContent = userData.firstName? `Name: ${userData.firstName} ${userData.lastName}`: "guest id";
 email.textContent = userData.email ? `Email: ${userData.email}` : "guest email";
 gender.textContent = userData.gmail ? `Gender:${userData.gender}` : "guest id";
 plan.textContent = userData.plan ? `Plan: ${userData.plan}` : "guest id";
