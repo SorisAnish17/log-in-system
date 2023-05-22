@@ -6,13 +6,15 @@ let gender = document.querySelector("#gender");
 let plan = document.querySelector("#plan");
 let key = userSessionStorage.key(0);
 console.log(key);
-let userData = JSON.parse(sessionStorage.getItem(key));
-console.log(userData);
-username.textContent = ` ${userData.firstName} ${userData.lastName}`;
-displayname.textContent = `Name: ${userData.firstName} ${userData.lastName}`;
-email.textContent = `Email: ${userData.email}`;
-gender.textContent = `Gender:${userData.gender}`;
-plan.textContent = `Plan: ${userData.plan}`;
+username.textContent = userData.firstName
+  ? ` ${userData.firstName} ${userData.lastName}`
+  : "guest id";
+displayname.textContent = userData.firstName
+  ? `Name: ${userData.firstName} ${userData.lastName}`
+  : "guest id";
+email.textContent = userData.email ? `Email: ${userData.email}` : "guest email";
+gender.textContent = userData.gmail ? `Gender:${userData.gender}` : "guest id";
+plan.textContent = userData.plan ? `Plan: ${userData.plan}` : "guest id";
 let logout = document.querySelector("#logout");
 logout.addEventListener("click", (e) => {
   e.preventDefault();
