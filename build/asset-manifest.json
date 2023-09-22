@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8799928a.css",
+    "main.js": "/static/js/main.f0a72abb.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/imageThree.jpg": "/static/media/imageThree.77ea407f684bbc17a13f.jpg",
+    "static/media/imageFour.jpg": "/static/media/imageFour.1008baff8ea17c6e8ad3.jpg",
+    "static/media/bg-2.jpg": "/static/media/bg-2.71533b90a5bb18008fca.jpg",
+    "static/media/imageOne.jpg": "/static/media/imageOne.2ea6309798fc184ad017.jpg",
+    "static/media/gif-2.gif": "/static/media/gif-2.80e297099fb4e5cf197a.gif",
+    "static/media/imageTwo.jpg": "/static/media/imageTwo.d3e2574db782a48ac9db.jpg",
+    "static/media/bhuvia.avif": "/static/media/bhuvia.2fe1213e05739c1243db.avif",
+    "static/media/cookie.png": "/static/media/cookie.a89a5b0cf5c424eb6185.png",
+    "static/media/alexa.avif": "/static/media/alexa.2dd85c0274990e6f3b1f.avif",
+    "static/media/gif.gif": "/static/media/gif.4136a67a8418a25d2ee1.gif",
+    "static/media/edric.jpeg": "/static/media/edric.9896dcf5c0bbe1cdfd1a.jpeg",
+    "static/media/tandoori.jpg": "/static/media/tandoori.b93051873aa71df43156.jpg",
+    "static/media/franko.avif": "/static/media/franko.b467752673d0b14a73a1.avif",
+    "static/media/shawarma.jpg": "/static/media/shawarma.9c7ad730731812566506.jpg",
+    "static/media/susi.jpg": "/static/media/susi.2f14e40f09f4a63f16d1.jpg",
+    "static/media/bg-3.jpg": "/static/media/bg-3.a04f06a8cf34ad9817ba.jpg",
+    "static/media/falooda.jpg": "/static/media/falooda.a5dee5985707d9e849f3.jpg",
+    "static/media/bg-1.avif": "/static/media/bg-1.288be1200de4743b40ae.avif",
+    "static/media/error-404.png": "/static/media/error-404.7147f1ef623862da1e0e.png",
+    "index.html": "/index.html",
+    "main.8799928a.css.map": "/static/css/main.8799928a.css.map",
+    "main.f0a72abb.js.map": "/static/js/main.f0a72abb.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8799928a.css",
+    "static/js/main.f0a72abb.js"
+  ]
+}
